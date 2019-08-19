@@ -1,0 +1,90 @@
+[
+    {
+        "OfficeName" : "Executive Office of the Mayor",
+        "POC" : {
+            "Name" : "John Falcicchio",
+            "Email" : "eom@dc.gov",
+            "Phone" : "(202) 727-2643"
+        }
+    },
+    {
+        "OfficeName" : "Consumer and Regulatory Affairs",
+        "POC" : {
+            "Name" : "Ernest Chrappah",
+            "Email" : "dcra@dc.gov",
+            "Phone" : "(202) 442-4400"
+        }
+    },
+    {
+        "OfficeName" : "Disability Services",
+        "POC" : {
+            "Name" : "(202) 730-1700",
+            "Email" : "dds@dc.gov",
+            "Phone" : "Andrew Reese"
+        }
+    },
+    {
+        "OfficeName" : "Energy and Environment",
+        "POC" : {
+            "Name" : "Tommy Wells",
+            "Email" : "doee@dc.gov",
+            "Phone" : "(202) 535-2600"
+        }
+    },
+    {
+        "OfficeName" : "Fire and Emergency Medical Services",
+        "POC" : {
+            "Name" : "Gregory M. Dean",
+            "Email" : "info.fems@dc.gov",
+            "Phone" : "(202) 673-3320"
+        }
+    },
+    {
+        "OfficeName" : "General Services",
+        "POC" : {
+            "Name" : "Keith Anderson",
+            "Email" : "dgs@dc.gov",
+            "Phone" : "(202) 727-2800"
+        }
+    },
+    {
+        "OfficeName" : "Housing and Community Development",
+        "POC" : {
+            "Name" : "Polly Donaldson",
+            "Email" : "dhcd@dc.gov",
+            "Phone" : "(202) 442-7200"
+        }
+    },
+    {
+        "OfficeName" : "District of Columbia Water and Sewer Authority",
+        "POC" : {
+            "Name" : "David L. Gadis",
+            "Email" : "info@dcwater.com",
+            "Phone" : "202-354-3600"
+        }
+    },
+    {
+        "OfficeName" : "Parks and Recreation",
+        "POC" : {
+            "Name" : "Delano Hunter",
+            "Email" : "dpr@dc.gov",
+            "Phone" : "(202) 673-7647"
+        }
+    },
+    {
+        "OfficeName" : "Public Works",
+        "POC" : {
+            "Name" : "Christopher Geldart",
+            "Email" : "dpw@dc.gov",
+            "Phone" : "(202) 673-6833"
+        }
+    },
+    {
+        "OfficeName" : "Transportation",
+        "POC" : {
+            "Name" : "Jeff Marootian",
+            "Email" : "ddot@dc.gov",
+            "Phone" : "(202) 673-6813"
+        }
+    }
+]
