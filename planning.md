@@ -39,3 +39,8 @@ Model for Agencies
     POC Name
     POC Email
     POC Phone
+
+
+Note for Color of Website: 
+- hex for red = #E002A 
+

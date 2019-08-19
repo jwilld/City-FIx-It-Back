@@ -1,12 +1,12 @@
 const mongoose = require('../db/connection')
 
-const Agencies = new mongoose.Schema({
+const Agency = new mongoose.Schema({
     OfficeName: String,
     POCName: String,
     POCEmail: String,
     POCPhone: String
 })
 
-mongoose.model('Agencies', Agencies)
+mongoose.model('Agency', Agency)
 
 module.exports = mongoose 

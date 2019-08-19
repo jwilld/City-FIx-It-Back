@@ -27,7 +27,7 @@ const Ticket = new mongoose.Schema({
         Referal: String
     },
     ReferredTo: {
-        Agencies: {
+        Agency: {
             href: String
         }
     }
