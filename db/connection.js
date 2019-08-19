@@ -8,13 +8,35 @@
 
 // module.exports = mongoose 
 
+// const mongoose = require('mongoose')
+
+// let mongoURI = ""
+
+// if (process.env.NODE_ENV === "production") {
+//     mongoURI = process.env.DB_URL;
+// } else {
+//     mongoURI = "mongodb://localhost/city-fix-it";
+// }
+
+// module.exports = mongoose
+
 const mongoose = require('mongoose')
+
+mongoose.Promise = Promise;
+
 let mongoURI = ""
 
 if (process.env.NODE_ENV === "production") {
     mongoURI = process.env.DB_URL;
-} else {
+   } else {
     mongoURI = "mongodb://localhost/city-fix-it";
-}
+   }
 
-module.exports = mongoose
+mongoose
+ .connect(mongoURI, { useNewUrlParser: true })
+ .then(instance =>
+   console.log(`Connected to db: ${instance.connections[0].name}`)
+ )
+ .catch(error => console.log("Connection failed!", error));
+
+module.exports = mongoose 
