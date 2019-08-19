@@ -1,4 +1,4 @@
-const mongoose = require('./schema.js')
+const connection = require("./connection");
 const TicketsData = require('./Tickets.json')
 const AgenciesData = require("./Agencies.json")
 const TicketModel = require("../models/Agency")
@@ -32,4 +32,3 @@ TicketModel.remove({})
 
 
 
-  
