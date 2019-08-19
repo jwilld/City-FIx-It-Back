@@ -7,7 +7,7 @@ City Fix-It
     - street
     - apartment
     - city
-    - zip
+    - zipcode
     - state 
 
     Type
