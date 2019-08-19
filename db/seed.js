@@ -6,21 +6,27 @@ const AgencyModel = require("../models/Ticket")
 
 
 
+TicketModel.remove({})
+  .then(somevariable => {
+    TicketModel.collection.insert(TicketsData)
+      .then((somevariable) => {
+        console.log(somevariable)
+        process.exit()
+      })
+  })
+  .catch((err) => {
+    console.log(err)
+  })
 
+  AgencyModel.remove({})
+  .then(somevariable => {
+    AgencyModel.collection.insert(AgenciesData)
+      .then((somevariable) => {
+        console.log(somevariable)
+        process.exit()
+      })
+  })
+  .catch((err) => {
+    console.log(err)
+  })
 
-
-
-
-
-
-// bookModel.remove({})
-//   .then(somevariable => {
-//     bookModel.collection.insert(bookData)
-//       .then((somevariable) => {
-//         console.log(somevariable)
-//         process.exit()
-//       })
-//   })
-//   .catch((err) => {
-//     console.log(err)
-//   })
