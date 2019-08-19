@@ -8,28 +8,15 @@ const Ticket = new mongoose.Schema({
         Zipcode: String,
         State: String
     },
-    Type: {
-        Repair: String,
-        Trash: String,
-        Vehicle: String,
-        Vandalism: String,
-        Other: String
-    },
-    Priority: {
-        Routine: String,
-        Urgent: String
-    },
+    Type: String,
+    Priority: String,
     Description: String,
-    Status: {
-        Cancel: String,
-        NoAction: String,
-        Emergency: String,
-        Referal: String
-    },
+    Status: String,
     ReferredTo: {
         Agency: {
             href: String
-        }
+        } 
+        ////THIS NEEDS TO BE EDITED EVENTUALLY
     }
 });
 
