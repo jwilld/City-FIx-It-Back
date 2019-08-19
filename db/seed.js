@@ -1,10 +1,10 @@
 const connection = require("./connection");
 const TicketsData = require('./Tickets.json')
 const AgenciesData = require("./Agencies.json")
-const TicketModel = require("../models/Agency")
-const AgencyModel = require("../models/Ticket")
+const AgencyModel = require("../models/Agency")
+const TicketModel = require("../models/Ticket")
 
-
+// AgencyModel.create({AgenciesData})
 
 TicketModel.remove({})
   .then(somevariable => {
