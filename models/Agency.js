@@ -9,6 +9,4 @@ const Agency = new mongoose.Schema({
     }
 })
 
-
-
 module.exports = mongoose.model('Agency',Agency)

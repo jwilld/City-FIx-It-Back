@@ -19,6 +19,4 @@ const Ticket = new mongoose.Schema({
         ////THIS NEEDS TO BE EDITED EVENTUALLY
 });
 
-mongoose.model('Ticket', Ticket)
-
-module.exports = mongoose
+module.exports = mongoose.model('Ticket', Ticket)
