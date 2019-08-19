@@ -14,7 +14,7 @@ const Ticket = new mongoose.Schema({
     Status: String,
     ReferredTo: [{
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'ReferredTo'
+        ref: 'Agency'
     }]
         ////THIS NEEDS TO BE EDITED EVENTUALLY
 });
