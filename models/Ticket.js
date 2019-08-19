@@ -12,12 +12,11 @@ const Ticket = new mongoose.Schema({
     Priority: String,
     Description: String,
     Status: String,
-    ReferredTo: {
-        Agency: {
-            href: String
-        } 
+    ReferredTo: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'ReferredTo'
+    }]
         ////THIS NEEDS TO BE EDITED EVENTUALLY
-    }
 });
 
 mongoose.model('Ticket', Ticket)
