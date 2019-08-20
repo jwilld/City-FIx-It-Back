@@ -16,6 +16,7 @@ app.listen(app.get("port"), () => {
     console.log(`PORT: ${app.get("port")}`);
 });
 
+
 // app.listen(3001, () => console.log("listening on port 3001"))
 
 
@@ -24,3 +25,4 @@ app.listen(app.get("port"), () => {
 
 // mongodb+srv://JerryDavidJamie:JerryDavidJamie???@cluster0-rajxf.mongodb.net/test?retryWrites=true&w=majority
 
+// heroku config:set DB_URL="mongodb+srv://JerryDavidJamie:JerryDavidJamie???@cluster0-8mjuz.mongodb.net/test?retryWrites=true"
