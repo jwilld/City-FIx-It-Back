@@ -2,6 +2,7 @@
 const mongoose = require('mongoose');
 const connection = require("../../db/connection");
 const Ticket = require('../../models/Ticket')
+const axios = require('axios');
 
 //original non-looped version
 // const TicketData = Ticket.find(function (err, tickets) {
@@ -42,10 +43,46 @@ const TicketData = Ticket.find(function (err, tickets) {
             thisZip = tickets[i].Address.Zipcode
             thisState = tickets[i].Address.State
             thisAddress = thisStreet + ", " + thisCity + ", " + thisState + " " + thisZip
-    
+        
             // console.log(thisAddress)
             ticketAddressesArray.push(thisAddress)
-            console.log(ticketAddressesArray)
-        }   
+            
+            
+        } 
+        console.log(ticketAddressesArray)
+
+        for (let i = 0; i < ticketAddressesArray.length; i++) {
+            var URLFirst = "https://maps.googleapis.com/maps/api/geocode/json?address="
+            var URLAddress = ticketAddressesArray[i]
+            var URLThird = '&key=AIzaSyAGIIycqco2n6BTluRgIHy_G7rjmFBerlk'
+            var URLTotal = URLFirst + URLAddress + URLThird
+
+            console.log(URLTotal)
+
+            axios.get(URLTotal)
+               .then(response => this.setState({placeId:response.data}))
+               .catch(err => {
+                 console.log(err)                     //Axios entire error message
+                 console.log(err.response.data.error) //Google API error message 
+               })
+
+        }
+
+
+
+
+
+  
+      }).then(function(ticketAddressesArray) {
+ 
+        // console.log(ticketAddressesArray)
+
+
       })
-    
+
+
+
+
+
+
+
