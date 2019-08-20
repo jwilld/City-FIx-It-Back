@@ -6,6 +6,7 @@ const app = express()
 app.use(cors())
 app.use(parser.json())
 
+
 app.use('/agencies', require('./routes/agencies'))
 app.use('/tickets', require('./routes/tickets'))
 
