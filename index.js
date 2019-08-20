@@ -26,3 +26,5 @@ app.listen(app.get("port"), () => {
 // mongodb+srv://JerryDavidJamie:JerryDavidJamie???@cluster0-rajxf.mongodb.net/test?retryWrites=true&w=majority
 
 // heroku config:set DB_URL="mongodb+srv://JerryDavidJamie:JerryDavidJamie???@cluster0-8mjuz.mongodb.net/test?retryWrites=true"
+
+
