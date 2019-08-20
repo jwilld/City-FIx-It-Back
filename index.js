@@ -17,3 +17,10 @@ app.listen(app.get("port"), () => {
 });
 
 // app.listen(3001, () => console.log("listening on port 3001"))
+
+
+// mongodb+srv://JerryDavidJamie:JerryDavidJamie???@cluster0-rajxf.mongodb.net/test?retryWrites=true&w=majority
+
+
+// mongodb+srv://JerryDavidJamie:JerryDavidJamie???@cluster0-rajxf.mongodb.net/test?retryWrites=true&w=majority
+
