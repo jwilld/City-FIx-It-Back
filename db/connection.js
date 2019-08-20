@@ -24,7 +24,7 @@ const mongoose = require('mongoose')
 
 mongoose.Promise = Promise;
 
-let mongoURI = ""
+let mongoURI = "";
 
 if (process.env.NODE_ENV === "production") {
     mongoURI = process.env.DB_URL;
