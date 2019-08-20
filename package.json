@@ -9,7 +9,7 @@
   },
   "engines": {
     "node": "12.4.0"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jwilld/City-Fix-It-Back.git"

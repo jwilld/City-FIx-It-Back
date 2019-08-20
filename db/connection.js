@@ -20,7 +20,18 @@
 
 // module.exports = mongoose
 
-const mongoose = require('mongoose')
+
+//keep these for troubleshooting
+// console.log(process.env)
+// console.log(process.env.DB_URL)
+// console.log(process)
+
+
+// TEMPORARY - DELETE this
+// process.env.DB_URL = "mongodb://localhost/city-fix-it"
+
+
+const mongoose = require("mongoose")
 
 mongoose.Promise = Promise;
 
@@ -28,6 +39,7 @@ let mongoURI = "";
 
 if (process.env.NODE_ENV === "production") {
     mongoURI = process.env.DB_URL;
+    console.log(mongoURI)
    } else {
     mongoURI = "mongodb://localhost/city-fix-it";
    }
