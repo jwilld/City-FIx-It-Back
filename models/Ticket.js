@@ -1,18 +1,18 @@
 const mongoose = require('../db/connection')
 
 const Ticket = new mongoose.Schema({
-    Address: {
-        Street: String,
-        Apartment: String,
-        City: String,
-        Zipcode: String,
-        State: String
+    address: {
+        street: String,
+        spartment: String,
+        city: String,
+        zipcode: String,
+        state: String
     },
-    Type: String,
-    Priority: String,
-    Description: String,
-    Status: String,
-    ReferredTo: [{
+    type: String,
+    priority: String,
+    description: String,
+    status: String,
+    referred_to: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Agency'
     }]
