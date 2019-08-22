@@ -1,0 +1,46 @@
+The following is the text of the proposal sent for approval:
+
+City Fix-It
+Our team is creating an app that allows citizens of DC to submit repair requests to the DC government.  The app will consist of an interface for citizens to submit the request, including location information and description, and an interface for city employees to review all submitted requests for service. The government’s interface will include options for referring the case to other government agencies for work to be done.
+For our MVP, there will be two models, one for the tickets and one for the various municipal government offices that will assist with responding to the tickets.
+The ticket model consists of fields for address, type, priority, description (all of which are submitted by the citizen), and status and “referred to”, which are updated by government.  The “referred to” field links to the agency model, which includes fields for office name, and point of contact information.
+The proposed models are the following:
+const Ticket = new mongoose.Schema({
+  Address: {
+      Street: String,
+      Apartment: String,
+      City: String,
+      Zipcode: String,
+      State: String
+  },
+  Type: {
+      Repair: String,
+      Trash: String,
+      Vehicle: String,
+      Vandalism: String,
+      Other: String
+  },
+  Priority: {
+      Routine: String,
+      Urgent: String
+  },
+  Description: String,
+  Status: {
+      Cancel: String,
+      NoAction: String,
+      Emergency: String,
+      Referal: String
+  },
+  ReferredTo: {
+      Agency: {
+          href: String
+      }
+  }
+});
+=============
+const Agency = new mongoose.Schema({
+  OfficeName: String,
+  POCName: String,
+  POCEmail: String,
+  POCPhone: String
+})

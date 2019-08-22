@@ -19,11 +19,14 @@
   "homepage": "https://github.com/jwilld/City-Fix-It-Back#readme",
   "dependencies": {
     "axios": "^0.19.0",
+    "body": "^5.1.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
-    "mongoose": "^5.6.9"
+    "mongodb": "^3.3.0",
+    "mongoose": "^5.6.9",
+    "parser": "^0.1.4"
   },
   "devDependencies": {}
 }
