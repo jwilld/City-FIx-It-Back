@@ -12,12 +12,12 @@ app.use('/tickets', require('./routes/tickets'))
 
 app.set("port", process.env.PORT || 8080);
 
-// app.listen(app.get("port"), () => {
-//     console.log(`PORT: ${app.get("port")}`);
-// });
+app.listen(app.get("port"), () => {
+    console.log(`PORT: ${app.get("port")}`);
+});
 
 
-app.listen(3001, () => console.log("listening on port 3001"))
+// app.listen(3001, () => console.log("listening on port 3001"))
 
 
 
