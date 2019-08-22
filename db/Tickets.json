@@ -1,90 +1,90 @@
 [
     {
-        "Address" : {
-            "Street" : "1301 K St NW",
-            "Apartment" : "",
-            "City" : "Washington",
-            "Zipcode" : "20005",
-            "State" : "DC"
+        "address" : {
+            "street" : "1800 J St NW",
+            "apartment" : "",
+            "city" : "Washington",
+            "zipcode" : "20005",
+            "state" : "DC"
         },
-        "Type" : "Repair",
-        "Priority" : "Urgent",
-        "Description" : "there is a broken sprinkler spewing water into the park",
-        "Status" : "Pending",
-        "ReferredTo" : {
-            "Agency" : {
+        "type" : "Repair",
+        "priority" : "Urgent",
+        "description" : "there is a broken sprinkler spewing water into the park",
+        "status" : "Pending",
+        "referred_to" : {
+            "agency" : {
                 "ref": ""
             }
         }
     },
     {
-        "Address" : {
-            "Street" : "3 Thomas Cir NW",
-            "Apartment" : "",
-            "City" : "Washington",
-            "Zipcode" : "20005",
-            "State" : "DC"
+        "address" : {
+            "street" : "3 Thomas Cir NW",
+            "apartment" : "",
+            "city" : "Washington",
+            "zipcode" : "20005",
+            "state" : "DC"
         },
-        "Type" : "Repair",
-        "Priority" : "Urgent",
-        "Description" : "someone crashed into a road sign and it is in the road",
-        "Status" : "Pending",
-        "ReferredTo" : {
-            "Agency" : {
+        "type" : "Repair",
+        "priority" : "Urgent",
+        "description" : "someone crashed into a road sign and it is in the road",
+        "status" : "Pending",
+        "referred_to" : {
+            "agency" : {
                 "ref": ""
             }
         }
     },
     {
-        "Address" : {
-            "Street" : "3703 Massachusetts Ave NW",
-            "Apartment" : "",
-            "City" : "Washington",
-            "Zipcode" : "20016",
-            "State" : "DC"
+        "address" : {
+            "street" : "3703 Massachusetts Ave NW",
+            "apartment" : "",
+            "city" : "Washington",
+            "zipcode" : "20016",
+            "state" : "DC"
         },
-        "Type" : "Trash",
-        "Priority" : "Routine",
-        "Description" : "there is a pile of construction debris blocking the sidewalk",
-        "Status" : "Pending",
-        "ReferredTo" : {
-            "Agency" : {
+        "type" : "Trash",
+        "priority" : "Routine",
+        "description" : "there is a pile of construction debris blocking the sidewalk",
+        "status" : "Pending",
+        "referred_to" : {
+            "agency" : {
                 "ref": ""
             }
         }
     },
     {
-        "Address" : {
-            "Street" : "2001 E Capitol St SE ",
-            "Apartment" : "",
-            "City" : "Washington",
-            "Zipcode" : "20003",
-            "State" : "DC"
+        "address" : {
+            "street" : "2001 E Capitol St SE ",
+            "apartment" : "",
+            "city" : "Washington",
+            "zipcode" : "20003",
+            "state" : "DC"
         },
-        "Type" : "Vandalism",
-        "Priority" : "Routine",
-        "Description" : "graffiti on the wall",
-        "Status" : "Pending",
-        "ReferredTo" : {
-            "Agency" : {
+        "type" : "Vandalism",
+        "priority" : "Routine",
+        "description" : "graffiti on the wall",
+        "status" : "Pending",
+        "referred_to" : {
+            "agency" : {
                 "ref": ""
             }
         }
     },
     {
-        "Address" : {
-            "Street" : "1500 Potomac Ave SE",
-            "Apartment" : "",
-            "City" : "Washington",
-            "Zipcode" : "20003",
-            "State" : "DC"
+        "address" : {
+            "street" : "1500 Potomac Ave SE",
+            "apartment" : "",
+            "city" : "Washington",
+            "zipcode" : "20003",
+            "state" : "DC"
         },
-        "Type" : "Repair",
-        "Priority" : "Urgent",
-        "Description" : "the lights are out at the intersection ",
-        "Status" : "Pending",
-        "ReferredTo" : {
-            "Agency" : {
+        "type" : "Repair",
+        "priority" : "Urgent",
+        "description" : "the lights are out at the intersection ",
+        "status" : "Pending",
+        "referred_to" : {
+            "agency" : {
                 "ref": ""
             }
         }
