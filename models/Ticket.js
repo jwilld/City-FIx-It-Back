@@ -3,7 +3,7 @@ const mongoose = require('../db/connection')
 const Ticket = new mongoose.Schema({
     address: {
         street: String,
-        spartment: String,
+        apartment: String,
         city: String,
         zipcode: String,
         state: String
