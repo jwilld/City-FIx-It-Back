@@ -27,6 +27,8 @@ After installing dependencies, you should set up a database on MongoDB Atlas, no
 
 On Heroku, follow the directions there for deployment via Git.
 
+Use the seed files (db/seed/js) to seed your database
+
 # Built With
 - NPM
 - Express
