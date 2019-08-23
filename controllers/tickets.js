@@ -6,9 +6,9 @@ module.exports = {
     show: (req, res) => Ticket.find({})
         .then(ticket => res.json(ticket)),
     showId:(req,res) => Ticket.findOne({_id:req.params.id})
-    .then(ticket => res.json(ticket)),
-    update: (req, res) => Ticket.findOneAndUpdate({ name: req.params.name }, req.body)
         .then(ticket => res.json(ticket)),
-    delete: (req, res) => Ticket.findOneAndDelete({ name: req.params.name })
+    update: (req, res) => Ticket.findOneAndUpdate({ _id: req.params.id }, req.body)
+        .then(ticket => res.json(ticket)),
+    delete: (req, res) => Ticket.findOneAndDelete({ _id: req.params.id })
         .then(ticket => res.json(ticket))
 }
