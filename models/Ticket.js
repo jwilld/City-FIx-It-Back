@@ -10,7 +10,6 @@ const Ticket = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Agency'
     }]
-        ////THIS NEEDS TO BE EDITED EVENTUALLY
 });
 
 module.exports = mongoose.model('Ticket', Ticket)

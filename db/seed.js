@@ -4,8 +4,6 @@ const AgenciesData = require("./Agencies.json")
 const AgencyModel = require("../models/Agency")
 const TicketModel = require("../models/Ticket")
 
-// AgencyModel.create({AgenciesData})
-
 TicketModel.remove({})
   .then(somevariable => {
     TicketModel.collection.insert(TicketsData)
@@ -29,6 +27,3 @@ TicketModel.remove({})
   .catch((err) => {
     console.log(err)
   })
-
-
-
